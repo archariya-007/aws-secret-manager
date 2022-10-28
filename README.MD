@@ -11,5 +11,5 @@ update get-secret.js with your credential
 ## Step 3 run from console
 `node getSecret`
 
-[^1] for different secret key update getSecret.secretId = 'bc_elfuerte_pubkey-tf'; //aws secret manager
+*for different secret key update getSecret.secretId = 'bc_elfuerte_pubkey-tf'; //aws secret manager and  //result return { pubKey: MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgK....}*
 
