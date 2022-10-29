@@ -1,6 +1,6 @@
 const victoria = require('./get-secret');
 
-let secretId = 'bc_elfuerte_pubkey-tf2'; //aws secret manager
+let secretId = 'bc_elfuerte_pubkey-tf'; //aws secret manager
 
 victoria.getSecrets(secretId).then(result=> {
     console.info(result.pubKey);
