@@ -23,7 +23,7 @@ const getSecrets = async (SecretId) => {
             }
         });
     });
-    return JSON.parse(response);
+    return response;
 };
 
 module.exports = { getSecrets };
